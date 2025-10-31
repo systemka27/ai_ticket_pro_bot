@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 3. **Настройка окружения**
-Перед запуском создайте файл `.env` в корне проекта:
+Перед запуском создайте файл `.env` в корне проекта:  
 
 ```env
 BOT_TOKEN=your_telegram_bot_token_here
