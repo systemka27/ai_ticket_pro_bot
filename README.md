@@ -24,10 +24,11 @@
 git clone https://github.com/systemka27/Smart-Support-Assistant.git
 cd Smart-Support-Assistant
 
-2. **Установка зависимостей**
+
+3. **Установка зависимостей**
 pip install -r requirements.txt
 
-3. **Настройка окружения**
+4. **Настройка окружения**
 cp .env.example .env
 # Отредактируйте .env файл, добавив ваши данные
 
