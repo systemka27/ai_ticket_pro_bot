@@ -41,15 +41,19 @@ git clone https://github.com/systemka27/ai_ticket_pro_bot.git
 cd ai_ticket_pro_bot
 ```
 
-3. **Установка зависимостей**
+2. **Установка зависимостей**
 ```bash
 pip install -r requirements.txt
 ```
 
-5. **Настройка окружения**
-```bash
-cp .env.example .env
-# Отредактируйте .env файл, добавив ваши данные
+3. **Настройка окружения**
+Перед запуском создайте файл `.env` в корне проекта:
+
+```env
+BOT_TOKEN=your_telegram_bot_token_here
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+DATABASE_URL=sqlite+aiosqlite:///./bot.db
+OPERATOR_CHAT_ID=your_chat_id_here
 ```
 
 4. **Запуск бота**
@@ -57,14 +61,6 @@ cp .env.example .env
 python main.py
 ```
 
-## Конфигурация
-```bash
-Создайте файл .env:
-BOT_TOKEN=ваш_токен_telegram_бота
-DEEPSEEK_API_KEY=ваш_ключ_deepseek_api
-DATABASE_URL=sqlite:///database.db
-OPERATOR_CHAT_ID=ваш_chat_id
-```
 
 ## Демонстрация
 Протестировать бота: @AI_Ticket_Pro_Bot
