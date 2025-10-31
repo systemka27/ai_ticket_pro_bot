@@ -20,7 +20,7 @@ AI-ассистент для службы поддержки, созданный
 
 ### Структура проекта
 ```bash
-project/
+ai_ticket_pro_bot/
 ├── services/
 │ └── deepseek_service.py # Логика взаимодействия с моделью DeepSeek
 ├── .amvera.yml # Конфигурация для деплоя
