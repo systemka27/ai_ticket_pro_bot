@@ -19,6 +19,7 @@ AI-ассистент для службы поддержки, созданный
 - **SQLite** - База данных
 
 ## Структура проекта
+```bash
 project/
 ├── services/
 │ └── deepseek_service.py # Логика взаимодействия с моделью DeepSeek
@@ -30,7 +31,7 @@ project/
 ├── Procfile # Конфигурация запуска (для Amvera)
 ├── requirements.txt # Зависимости Python
 └── runtime.txt # Версия Python
-
+```
 
 ## Установка и запуск
 
