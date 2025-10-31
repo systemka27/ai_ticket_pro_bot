@@ -29,8 +29,7 @@ project/
 ├── main.py # Точка входа в приложение
 ├── models.py # Модели данных
 ├── Procfile # Конфигурация запуска (для Amwera)
-├── requirements.txt # Зависимости Python
-└── runtime.txt # Версия Python
+└──requirements.txt # Зависимости Python
 ```
 
 ### Установка и запуск
