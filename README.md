@@ -21,9 +21,10 @@
 ## 📦 Установка и запуск
 
 1. **Клонирование репозитория**
+```bash
 git clone https://github.com/systemka27/Smart-Support-Assistant.git
 cd Smart-Support-Assistant
-
+```
 
 3. **Установка зависимостей**
 ```bash
